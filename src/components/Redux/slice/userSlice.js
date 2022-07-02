@@ -6,6 +6,7 @@ export const fetchUserList = createAsyncThunk("fetchUsers" , async()=>{
     console.log(response)
     return response
 })
+// babakJahani
 
 export const userSlice = createSlice({
     name : "users",
